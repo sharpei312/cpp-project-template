@@ -1,8 +1,8 @@
-# 📐 CPP Project Template
+# CPP Project Template
 
-> Um projeto C++ profissional com estrutura moderna, Gitflow e desenvolvimento dirigido por testes (TDD).
+Um template para projetos C++ que demonstra boas práticas de desenvolvimento, incluindo estrutura de diretórios padronizada, versionamento com Gitflow, desenvolvimento dirigido por testes (TDD), automação com Makefile e gestão de issues com Kanban.
 
-## 🎯 Objetivo
+## Objetivo
 
 Este projeto demonstra as melhores práticas de desenvolvimento em C++, incluindo:
 - Estrutura de diretórios padronizada
@@ -11,7 +11,7 @@ Este projeto demonstra as melhores práticas de desenvolvimento em C++, incluind
 - Automação com Makefile
 - Gestão de issues com Kanban
 
-## 📦 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 cpp-project-template/
@@ -25,7 +25,7 @@ cpp-project-template/
 └── Makefile          # Automação de compilação
 ```
 
-## 🚀 Como Compilar
+## Como Compilar
 
 ### Compilar o Projeto Principal
 ```bash
@@ -47,19 +47,19 @@ make test
 make clean
 ```
 
-## 🔧 Funcionalidades Implementadas
+## Funcionalidades Implementadas
 
-### 1️⃣ Cálculo de Fatorial
+### 1. Cálculo de Fatorial
 - **Descrição:** Calcula o fatorial de um número inteiro
 - **Branch:** `feat/calcularFatorial`
 - **Testes:** Incluídos em `test/main.cpp`
 
-### 2️⃣ Cálculo de Fibonacci
+### 2. Cálculo de Fibonacci
 - **Descrição:** Calcula o n-ésimo número da sequência de Fibonacci
 - **Branch:** `feat/calcularFibonacci`
 - **Testes:** Incluídos em `test/main.cpp`
 
-## 📋 Gitflow e Kanban
+## Gitflow e Kanban
 
 Este projeto utiliza Gitflow para versionamento:
 - `master`: Código de produção
@@ -72,7 +72,7 @@ Boards de Issues:
 - **Waiting Acceptance**: Aguardando aprovação
 - **Done**: Concluídas
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Linguagem:** C++11
 - **Compilador:** GCC
@@ -80,13 +80,13 @@ Boards de Issues:
 - **Automação:** Makefile
 - **Testes:** Asserts nativos
 
-## 📚 Referências
+## Referências
 
 - [GitHub: Como fazer um README.md bonito](https://raullesteves.medium.com/github-como-fazer-um-readme-md-bonit%C3%A3o-c85c8f154f8)
 - [Makefile Tutorial](https://www.youtube.com/watch?v=Vi4U8JwxKHg)
 - [Gitflow Workflow](https://www2.decom.ufop.br/terralab/entendendo-o-funcionamento-do-cicd-dentro-do-git-flow/)
 
-## 🤝 Contribuição
+## Contribuição
 
 1. Crie uma issue no board "Sprint Backlog"
 2. Mova para "Doing" e crie uma branch de `develop`
@@ -95,7 +95,7 @@ Boards de Issues:
 5. Mova para "Waiting Acceptance"
 6. Após aprovação, merge para `staging` e mova para "Done"
 
-## 📄 Licença
+## Licença
 
 Este projeto é open source e está disponível sob a [Licença MIT](LICENSE).
 - **Status:** ✅ Implementado e testado
