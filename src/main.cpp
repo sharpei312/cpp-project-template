@@ -1,15 +1,16 @@
 #include <iostream>
 #include "../include/bib.hpp"
+using namespace std;
 
 int main() {
-    std::cout << "=== CPP Project Template ===" << std::endl;
-    std::cout << std::endl;
+    cout << "=== CPP Project Template ===" << endl;
+    cout << endl;
 
-    // Exemplo: Cálculo de Fatorial
-    std::cout << "Fatorial de 5: " << calcularFatorial(5) << std::endl;
+    // Ejemplo: Cálculo de Fatorial
+    cout << "Fatorial de 5: " << calcularFatorial(5) << endl;
     
-    // Exemplo: Cálculo de Fibonacci
-    std::cout << "Fibonacci de 7: " << calcularFibonacci(7) << std::endl;
+    // Ejemplo: Cálculo de Fibonacci
+    cout << "Fibonacci de 7: " << calcularFibonacci(7) << endl;
 
     return 0;
 }
