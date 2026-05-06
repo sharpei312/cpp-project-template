@@ -32,10 +32,14 @@ cpp-project-template/
 make build
 ```
 
+### Executar o Programa
+```bash
+make run
+```
+
 ### Compilar Testes
 ```bash
 make test
-./bin/testeRegressivo.exe
 ```
 
 ### Limpar Compilação
@@ -48,6 +52,52 @@ make clean
 ### 1️⃣ Cálculo de Fatorial
 - **Descrição:** Calcula o fatorial de um número inteiro
 - **Branch:** `feat/calcularFatorial`
+- **Testes:** Incluídos em `test/main.cpp`
+
+### 2️⃣ Cálculo de Fibonacci
+- **Descrição:** Calcula o n-ésimo número da sequência de Fibonacci
+- **Branch:** `feat/calcularFibonacci`
+- **Testes:** Incluídos em `test/main.cpp`
+
+## 📋 Gitflow e Kanban
+
+Este projeto utiliza Gitflow para versionamento:
+- `master`: Código de produção
+- `staging`: Preparação para release
+- `develop`: Desenvolvimento ativo
+
+Boards de Issues:
+- **Sprint Backlog**: Issues planejadas
+- **Doing**: Issues em desenvolvimento
+- **Waiting Acceptance**: Aguardando aprovação
+- **Done**: Concluídas
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Linguagem:** C++11
+- **Compilador:** GCC
+- **Versionamento:** Git + Gitflow
+- **Automação:** Makefile
+- **Testes:** Asserts nativos
+
+## 📚 Referências
+
+- [GitHub: Como fazer um README.md bonito](https://raullesteves.medium.com/github-como-fazer-um-readme-md-bonit%C3%A3o-c85c8f154f8)
+- [Makefile Tutorial](https://www.youtube.com/watch?v=Vi4U8JwxKHg)
+- [Gitflow Workflow](https://www2.decom.ufop.br/terralab/entendendo-o-funcionamento-do-cicd-dentro-do-git-flow/)
+
+## 🤝 Contribuição
+
+1. Crie uma issue no board "Sprint Backlog"
+2. Mova para "Doing" e crie uma branch de `develop`
+3. Implemente com TDD
+4. Commit para `develop`
+5. Mova para "Waiting Acceptance"
+6. Após aprovação, merge para `staging` e mova para "Done"
+
+## 📄 Licença
+
+Este projeto é open source e está disponível sob a [Licença MIT](LICENSE).
 - **Status:** ✅ Implementado e testado
 
 ### 2️⃣ Cálculo de Fibonacci
