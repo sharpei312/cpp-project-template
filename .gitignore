@@ -1,0 +1,38 @@
+# ===== Arquivos Compilados =====
+*.o
+*.a
+*.so
+*.dll
+*.exe
+
+# ===== Diretório de Binários =====
+bin/
+!bin/.gitkeep
+
+# ===== IDEs e Editores =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ===== CMake e Build Systems =====
+build/
+cmake-build-*/
+out/
+
+# ===== Dependências =====
+node_modules/
+.env
+.env.local
+
+# ===== Sistema Operacional =====
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# ===== Arquivos de Backup =====
+*.bak
+*.backup
+*.tmp
